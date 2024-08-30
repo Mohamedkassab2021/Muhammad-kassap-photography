@@ -39,11 +39,21 @@
                                     <!-- Menu -->
                                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
                                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                        <ul class="navbar-nav ml-auto py-4 py-md-0">
-                                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> <a class="nav-link" href="index.html">Home</a></li>
-                                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> <a class="nav-link" href="information.html">Information</a></li>
-                                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active"> <a class="nav-link" href="portfolio.html">Portfolio</a></li>
-                                            </ul>
+                                        <ul class="navbar-nav mr-auto py-4 py-md-0">
+                                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> <a class="nav-link"
+                                                    lang="ar" href="index.html" data-i18n="home">Home</a></li>
+                                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> <a class="nav-link"
+                                                    data-i18n="information" href="information.html">Pricing and
+                                                    packages</a></li>
+                                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active"> <a class="nav-link"
+                                                    data-i18n="portfolio" href="portfolio.html">Portfolio</a>
+                                                </li>
+                                            <select class="p-1 mt-2 mr-2 ml-3" class="form-control">
+                                                <option value="ar" data-i18n="arabic">Arabic</option>
+                                                <option value="en" data-i18n="english" selected>English</option>
+                                            </select>
+
+                                        </ul>
                                     </div>
                                 </nav>
                             </div>
@@ -254,5 +264,7 @@
     <script src="modules/magnific-popup/jquery.magnific-popup.js"></script>
     <script src="modules/masonry/masonry.pkgd.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/main.js" type="module"></script>
+
 </body>
 </html>
