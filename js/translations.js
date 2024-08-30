@@ -8,6 +8,7 @@ const translations = {
       selectLanguage: "Select a language",
       english: "English",
       arabic: "Arabic",
+      pic:"Wedding Alliance Photography"
     },
     ar: {
       siteName:"محمد كساب",
@@ -18,6 +19,7 @@ const translations = {
       selectLanguage: "إختر لغة",
       english: "الانجليزية",
       arabic: "العربية",
+      pic:"تصوير حفل الزفاف"
     },
   };
   
