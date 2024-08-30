@@ -12,9 +12,7 @@ const translations = {
       paragraph:"We try to make your day happy with our photography team",
       welcome:"Welcome",
       info:"Mohamed Kassab Photography",
-      info1:"Experience of not less than 6 years in the field of wedding and event photography
-
-And speed in delivery and maintain high image quality with the best print quality for albums and tablets and a lot of exclusive gifts at reasonable prices for all segments of society We wish you a nice 😍 day"
+      info1:""
     },
     ar: {
       siteName:"محمد كساب",
