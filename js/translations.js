@@ -15,7 +15,14 @@ const translations = {
     info1:"Experience of not less than 6 years in the field of wedding and event photography",
     info2:"And speed in delivery and maintain high image quality with the best print quality for albums and tablets and a lot of exclusive gifts at reasonable prices for all segments of society We wish you a nice 😍 day",
     price:"Pricing and packages",
-    portfolio:"Portfolio"
+    portfolio:"Portfolio",
+    story:"story",
+    pack:"Portfolio & Services",
+    all:"All",
+    wedding:"Wedding",
+    before:"Pre-wedding",
+    port:"Portrait"
+
   },
   ar: {
     siteName: "محمد كساب",
@@ -33,7 +40,13 @@ const translations = {
     info1:"خبرة لا تقل عن 6 سنين فى مجال تصوير الافراح والمناسبات",
     info2:"وسرعة فى التسليم و الحفاظ على جودة الصور عالية مع افضل جودة طباعة للالبومات و التابلوهات و الكثير من الهدايا الحصرية باسعار مناسبة لجميع فئات المجتمع نتمنى لكم يوما لطيفا 😍",
     price:"الأسعار والحزم",
-    portfolio:"الصور والخدمات"
+    portfolio:"الصور والخدمات",
+    story:"القصص",
+    pack:"الصور والخدمات",
+    all:"الكل",
+    wedding:"الزفاف",
+    before:"ما قبل الزفاف",
+    port:"بورتريه"
   },
 };
 
