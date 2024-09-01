@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-image: url("/images/Eldod.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color:#0c684938 ;
+    
+}
+.contact-form{
+    width: 85%;
+    max-width:600px ;
+    background: #eee;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    padding: 30px 40px;
+    border-radius:8px ;
+    justify-content: center;
+    text-align: center;
+    animation-duration: 2s;
+}
+
+
+.form{
+    border: 1px solid #a9a9a9;
+    margin: 7px 0;
+    padding: 6px 20px;
+    border-radius: 8px;
+}
+.contact-form h1{
+    font-weight: 500;
+    margin-top: 0;
+    letter-spacing: .15em;
+}
+.form label{
+    font-size: 13px;
+    color: #000;
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+}
+.form input, .form textarea{
+    width: 100%;
+    font-size: 19px;
+    margin-top: 5px;
+    border: none;
+    background: none;
+    outline: none;
+
+}
+.button{
+    width: 100%;
+    display: inline-flex;
+    background-color: #95c44f;
+    padding: 14px 0;
+    text-decoration: none;
+    text-transform: uppercase; 
+    margin-top: 8px;
+    cursor: pointer;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    transition: 1s ease;
+}
+.button:hover{
+    transform: scale(1.05);
+    border-radius: 0 30px;
+}
+.links{
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.links a i{
+    margin-top: 30px;
+    font-size: 40px;
+    transition: 1s ease;
+}
+.links a i:hover{
+    transform: scale(1.2);
+}
+.contact-form span{
+    color: #95c44f;
+    font-size: 35px;
+}
