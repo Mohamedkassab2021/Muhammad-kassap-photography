@@ -2298,3 +2298,7 @@ button:hover {
     
     
 }
+.prices .item .content li{
+    color: black;
+    font-size: 18px;
+}

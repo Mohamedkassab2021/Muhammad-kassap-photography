@@ -20,8 +20,8 @@ const translations = {
     pack:"Portfolio & Services",
     all:"All",
     wedding:"Wedding",
-    before:"Pre-wedding",
-    port:"Portrait"
+    before:"Engagement",
+    port:"Katb Ketab"
 
   },
   ar: {
@@ -45,8 +45,8 @@ const translations = {
     pack:"الصور والخدمات",
     all:"الكل",
     wedding:"الزفاف",
-    before:"ما قبل الزفاف",
-    port:"بورتريه"
+    before:"الخطوبه",
+    port:"كتب الكتاب"
   },
 };
 
