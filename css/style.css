@@ -480,7 +480,7 @@ input[type="checkbox"] {
     display: block;
     color: #505050;
     text-transform: uppercase;
-    letter-spacing: 0.25em;
+    
     font-size: 8px;
     font-family: "Tajawal", sans-serif;
     font-weight: 300;
@@ -544,7 +544,6 @@ input[type="checkbox"] {
 
 .section-padding h1 {
     color: #dd888d;
-    letter-spacing: 0.1em;
     font-size: 45px;
     text-align: left;
     font-family: 'Old Standard TT';
@@ -575,7 +574,7 @@ input[type="checkbox"] {
     font-weight: 300;
     font-style: normal;
     text-transform: uppercase;
-    letter-spacing: 0.5em;
+    
 }
 
 /* line css */
@@ -730,7 +729,7 @@ hr {
     display: block;
     color: #505050;
     text-transform: uppercase;
-    letter-spacing: 0.25em;
+    
     font-size: 8px;
     font-family: "Tajawal", sans-serif;
     font-weight: 400;
@@ -774,7 +773,7 @@ hr {
     display: block;
     color: #505050;
     text-transform: uppercase;
-    letter-spacing: 0.25em;
+    
     font-size: 9px;
     font-family: "Tajawal", sans-serif;
     font-weight: 300;
@@ -933,7 +932,7 @@ hr {
 
 .dropdown-item {
     color: #000;
-    letter-spacing: 1px;
+    
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
@@ -1089,7 +1088,7 @@ hr {
     text-transform: uppercase;
     font-family: "Tajawal", sans-serif;
     font-weight: 400;
-    letter-spacing: 5px;
+    
 }
 
 .signature {
@@ -1185,7 +1184,7 @@ hr {
     line-height: 1.2em;
     text-transform: uppercase;
     font-family: "Tajawal", sans-serif;
-    letter-spacing: 0.3em;
+    
     font-size: 11px;
     font-weight: 400;
 }
@@ -1224,7 +1223,7 @@ hr {
 .travel-dates-table h6 {
     color: #000;
     margin-bottom: 0;
-    letter-spacing: 0.25em;
+    
     text-transform: uppercase;
     font-size: 12px;
     font-family: "Tajawal", sans-serif;
@@ -1235,7 +1234,6 @@ hr {
 
 .travel-dates-table p {
     font-family: 'Paris Script';
-    letter-spacing: 0;
     font-size: 17px;
     color: #000;
     margin-bottom: 4px;
@@ -1246,7 +1244,7 @@ hr {
 .travel-dates-table span {
     color: #505050;
     margin-bottom: 4px;
-    letter-spacing: 0.25em;
+    
     text-transform: uppercase;
     font-size: 8px;
     font-family: "Tajawal", sans-serif;
@@ -1379,7 +1377,6 @@ hr {
     pointer-events: none;
     cursor: pointer;
     color: #505050;
-    letter-spacing: 1px;
     font-size: 12px;
     font-family: "Tajawal", sans-serif;
     font-weight: 300;
@@ -1452,7 +1449,7 @@ hr {
 .karla-project-subtitle {
     color: #505050;
     text-transform: uppercase;
-    letter-spacing: 0.25em;
+    
     font-size: 10px;
     font-family: "Tajawal", sans-serif;
     font-weight: 300;
@@ -1558,7 +1555,7 @@ hr {
     font-family: "Tajawal", sans-serif;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: 0.25em;
+    
     text-transform: uppercase;
     color: #fff;
 }
@@ -1634,7 +1631,7 @@ hr {
     font-family: "Tajawal", sans-serif;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: 0.25em;
+    
     text-transform: uppercase;
     color: #fff;
 }
@@ -1807,7 +1804,6 @@ hr {
     font-size: 8px;
     line-height: 1;
     font-weight: 400;
-    letter-spacing: 1px;
     color: #fff;
     text-align: center;
     border-radius: 2px;
@@ -1882,7 +1878,7 @@ hr {
     display: block;
     color: #505050;
     text-transform: uppercase;
-    letter-spacing: 0.25em;
+    
     font-size: 9px;
     font-family: "Tajawal", sans-serif;
     font-weight: 400;
@@ -1911,7 +1907,7 @@ hr {
 .footer-section .footer-top .left-cont li,
 .footer-section .footer-top .left-cont li a {
     color: #505050;
-    letter-spacing: 0.2em;
+    
     font-size: 11px;
     font-family: 'Nunito Sans';
     font-weight: 300;
@@ -1945,7 +1941,7 @@ hr {
 .footer-section .footer-top .right-cont li,
 .footer-section .right-cont li a {
     color: #505050;
-    letter-spacing: 0.2em;
+    
     font-size: 11px;
     font-family: 'Nunito Sans';
     font-weight: 300;
@@ -2084,7 +2080,7 @@ hr {
     font-weight: 400;
     font-family: "Tajawal", sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    
     margin-bottom: 30px;
 }
 
@@ -2165,7 +2161,6 @@ hr {
     text-transform: uppercase;
     color: #dd888d;
     font-weight: 400;
-    letter-spacing: 5px;
     line-height: 2.75em;
 }
 
@@ -2269,7 +2264,7 @@ hr {
     font-weight: 400;
     font-family: "Tajawal", sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    
 }
 
 .blog-sidebar .search form {
@@ -2320,7 +2315,7 @@ hr {
 .karla-post-section span {
     font-size: 10px;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    
     color: #dd888d;
     font-weight: 400;
 }
@@ -2367,7 +2362,7 @@ hr {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     margin-left: 20px;
-    letter-spacing: 2px;
+    
 }
 
 .karla-repay {

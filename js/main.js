@@ -1,5 +1,5 @@
 import translations from "./translations.js";
-
+localStorage.setItem("lang", 'ar');
 const languageSelector = document.querySelector("select");
 const navbar = document.querySelector(".navbar-nav");
 
