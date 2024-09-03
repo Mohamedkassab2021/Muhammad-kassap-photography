@@ -16,12 +16,12 @@ const translations = {
     info2:"And speed in delivery and maintain high image quality with the best print quality for albums and tablets and a lot of exclusive gifts at reasonable prices for all segments of society We wish you a nice 😍 day",
     price:"Pricing and packages",
     portfolio:"Portfolio",
-    story:"story",
-    pack:"Portfolio & Services",
-    all:"All",
-    wedding:"Wedding",
-    before:"Engagement",
-    port:"Katb Ketab",
+    story:"Our Works",
+    pack:"With all occasions",
+    // all:"All",
+    // wedding:"Wedding",
+    // before:"Engagement",
+    // port:"Katb Ketab",
     inf:"Information",
     dis:"Clear Prices & Complete Packages",
     prices:"Are you looking for an experienced destination photographer for affordable prices? You found me!My pricing and packages are designed to appeal to everyone.",
@@ -78,12 +78,12 @@ const translations = {
     info2:"وسرعة فى التسليم و الحفاظ على جودة الصور عالية مع افضل جودة طباعة للالبومات و التابلوهات و الكثير من الهدايا الحصرية باسعار مناسبة لجميع فئات المجتمع نتمنى لكم يوما لطيفا 😍",
     price:"الأسعار والحزم",
     portfolio:"الصور والخدمات",
-    story:"اللحظات",
-    pack:"الصور والخدمات",
-    all:"الكل",
-    wedding:"الزفاف",
-    before:"الخطوبه",
-    port:"كتب الكتاب",
+    story:"اخر اعمالنا",
+    pack:  "مع جميع المناسبات",
+    // all:"الكل",
+    // wedding:"الزفاف",
+    // before:"الخطوبه",
+    // port:"كتب الكتاب",
     inf:"التفاصيل",
     dis:"كل المعلومات والحزم الكاملة",
     prices:"هل تبحث عن مصور وجهة من ذوي الخبرة بأسعار معقولة؟ لقد وجدتني! تم تصميم أسعاري وحزمي لجذب الجميع. ",
