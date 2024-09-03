@@ -103,3 +103,9 @@ section .container .swiper:hover {
     box-shadow:15px 30px 20px #1B1C18;
     cursor: pointer;
 }
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F2F2F2;
+}
