@@ -2677,3 +2677,13 @@ button:hover {
     align-items: center;
     padding: 0 5px;
 }
+#shadow-host-companion{
+    display: none;
+}
+.swiper-pagination-bullet-active{
+    background-color: #dd888d !important;
+}
+.swiper-button-next, .swiper-button-prev{
+    background-color: #dd888d !important;
+
+}
