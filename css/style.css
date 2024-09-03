@@ -1796,7 +1796,7 @@ hr {
     height: 9px;
     opacity: 0;
     position: fixed;
-    right: -60px;
+    left: -60px;
     width: 49px;
     z-index: 999;
     display: block;
@@ -1818,7 +1818,7 @@ hr {
 }
 
 .totop-vissible {
-    right: 10px;
+    left: 10px;
     opacity: 1;
 }
 
@@ -2686,4 +2686,46 @@ button:hover {
 .swiper-button-next, .swiper-button-prev{
     background-color: #dd888d !important;
 
+}
+/* ملف styles.css */
+
+/* تصميم الأيقونة */
+.whatsapp-icon {
+        width: 60px; 
+       height: 60px;
+       border-radius: 28px;
+       display: inherit;
+       align-items: center;
+       justify-content: center;
+       pointer-events: initial;
+       background-size: 130% 130%;
+       transition: 0.2s ease-in-out;
+       position: fixed;
+       bottom: 150px;
+       right: 25px;
+       color: #fff;
+       background: #128C7E;
+       box-shadow: rgba(2, 6, 16, 0.2) 0px 2px 16px;
+    }
+
+.whatsapp-icon::after {
+    content: "";
+    transition: opacity 0.5s ease-in-out;
+    position: absolute;
+    inset: -1px;
+    opacity: 0;
+    border-radius: 50%;
+    background-color: rgb(198, 204, 220);
+}
+.whatsapp-icon i {
+    height: 55px;
+    width: 60px;
+    position: absolute;
+    
+    transition: 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff !important;
+    font-size: 35px;
 }
