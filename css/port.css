@@ -108,4 +108,5 @@ section .container .swiper:hover {
     align-items: center;
     justify-content: center;
     background: #F2F2F2;
+    height: 200px;
 }
