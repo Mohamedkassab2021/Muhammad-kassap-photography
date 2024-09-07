@@ -36,6 +36,9 @@
     color: white;
     background-color: #dd888d;
 }
+*{
+    scroll-behavior: smooth;
+}
 .tajawal-extralight {
     font-family: "Tajawal", sans-serif;
     font-weight: 200;

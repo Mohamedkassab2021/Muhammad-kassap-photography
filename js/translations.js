@@ -55,6 +55,7 @@ const translations = {
     w:"From 800 Eg",
     p:"From 350 Eg",
     c:"Contact Us for Details",
+    trend:"Trending Photos"
 
 
 
@@ -96,16 +97,16 @@ const translations = {
     pacenamee:"الباقة الذهبية ",
     pacenameee:"حزمة يوم كامل ",
     pacenameeee:"باقة كبار الشخصيات",
-    packinf1:"حفله تصوير فقط",
-    packinf:"حفله تصوير",
+    packinf1:"سيشن تصوير فقط",
+    packinf:"سيشن تصوير",
     packinff:" تعديل جميع الصور",
     packinfff:" توصيل كل صورك مع فلاشه",
     packinffff:"اذا كنت خارج المنوفية يتم اضافة 400 جنيه ",
-    packinfffff:"حفله",
+    packinfffff:"تصوبر قاعه",
     packinffffff:" الألبوم والبورتريه",
     packinfffffff:"التجهيزات",
     packinffffffff:"كتب الكتاب",
-    packinfffffffff:" فيديو ترويجي",
+    packinfffffffff:"  تصوير فيديو ",
     packinffffffffff:" 2 المصورين",
     serv:"المزيد من الخدمات",
     serve:"إذا كنت تحب نوع معين من التصوير الفوتوغرافي يمكنك الاتصال بنا",
@@ -117,6 +118,7 @@ const translations = {
     w:"تبدا من 800 جنيه",
     p:"تبدا من 350 جنيه",
     c:"تواصل معنا للتفاصيل",
+    trend:"اشهر الصور"
 
   
 

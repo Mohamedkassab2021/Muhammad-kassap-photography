@@ -28,6 +28,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link href="css/style.css" rel="stylesheet">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 
 </head>
@@ -86,7 +88,7 @@
     <div class="ready banner-padding bg-img" data-overlay-light="1" data-background="images/HADY9727.jpg">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12" data-aos-duration="1000" data-aos="flip-down" data-aos-delay="700">
                     <div style="border-radius: 8px;padding: 40px;" class="cat text-center animate-box fadeInUp animated"
                         data-animate-effect="fadeInUp"> <span data-i18n="story">اللحظات</span>
                         <hr class="line line-hr-center">
@@ -98,200 +100,152 @@
     </div>
 
     <div class="logo">
-    <h1>Trending Photos</h1>
+        <h1 data-aos-duration="1000" data-aos="fade-right" data-aos-delay="500" data-i18n="trend">Trending Photos</h1>
     </div>
     <!-- Portfolio -->
     <section class="Port">
-        <div class="container">
+        <div class="container" style="display: flex; ">
             <!-- Swiper -->
-            <div class="swiper mySwiper">
+            <div class="swiper mySwiper" data-aos-duration="1000" data-aos="fade-up" data-aos-delay="1000">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="img/3W8A1582.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/8.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/HADY3324.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/HADY9089.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/HADY9115.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/HADY9784.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/HADY9883.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/حطهم جنب بعض اكنهم بصين لبعض (2).jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/حطهم جنب بعض اكنهم بصين لبعض (1).jpg" />
-                    </div>
+                    <div class="swiper-slide"><img src="images/فولدر محمد كساب/صور (11).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/فولدر محمد كساب/صور (15).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/فولدر محمد كساب/صور (13).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/فولدر محمد كساب/صور (14).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/فولدر محمد كساب/صور (15).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/فولدر محمد كساب/صور (16).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/فولدر محمد كساب/صور (17).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/فولدر محمد كساب/صور (18).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/فولدر محمد كساب/صور (19).jpg" alt=""></div>
                 </div>
+
                 <div class="swiper-pagination"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <div class="autoplay-progress">
+                    <svg viewBox="0 0 48 48">
+                        <circle cx="24" cy="24" r="20"></circle>
+                    </svg>
+                    <span></span>
+                </div>
             </div>
 
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="img/3W8A1582.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/8.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/HADY3324.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/HADY9089.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/HADY9115.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/HADY9784.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/HADY9883.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/حطهم جنب بعض اكنهم بصين لبعض (2).jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/حطهم جنب بعض اكنهم بصين لبعض (1).jpg" />
-                    </div>
-                </div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-            </div>
+
+
+
 
             <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="img/3W8A1582.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/8.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/HADY3324.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/HADY9089.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/HADY9115.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/HADY9784.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/HADY9883.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/حطهم جنب بعض اكنهم بصين لبعض (2).jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/حطهم جنب بعض اكنهم بصين لبعض (1).jpg" />
-                    </div>
+                <div class="swiper-wrapper" data-aos-duration="1000" data-aos="fade-up" data-aos-delay="1000">
+                    <div class="swiper-slide"><img src="images/فولدر محمد كساب/صور (20).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/فولدر محمد كساب/صور (21).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/فولدر محمد كساب/صور (22).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/فولدر محمد كساب/صور (23).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/فولدر محمد كساب/صور (24).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/فولدر محمد كساب/صور (25).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/فولدر محمد كساب/صور (26).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/فولدر محمد كساب/صور (27).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/فولدر محمد كساب/صور (28).jpg" alt=""></div>
                 </div>
+
                 <div class="swiper-pagination"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <div class="autoplay-progress">
+                    <svg viewBox="0 0 48 48">
+                        <circle cx="24" cy="24" r="20"></circle>
+                    </svg>
+                    <span></span>
+                </div>
             </div>
 
-            <div class="swiper mySwiper">
+
+            <div class="swiper mySwiper" data-aos-duration="1000" data-aos="fade-down" data-aos-delay="1000">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="img/3W8A1582.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/8.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/HADY3324.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/HADY9089.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/HADY9115.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/HADY9784.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/HADY9883.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/حطهم جنب بعض اكنهم بصين لبعض (2).jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/حطهم جنب بعض اكنهم بصين لبعض (1).jpg" />
-                    </div>
+                    <div class="swiper-slide"><img src="/images/فولدر محمد كساب/صور (1).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="/images/فولدر محمد كساب/صور (40).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="/images/فولدر محمد كساب/صور (4).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="/images/فولدر محمد كساب/صور (21).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="/images/فولدر محمد كساب/صور (39).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="/images/فولدر محمد كساب/صور (7).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="/images/فولدر محمد كساب/صور (38).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="/images/فولدر محمد كساب/صور (9).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="/images/فولدر محمد كساب/صور (10).jpg" alt=""></div>
                 </div>
+
                 <div class="swiper-pagination"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <div class="autoplay-progress">
+                    <svg viewBox="0 0 48 48">
+                        <circle cx="24" cy="24" r="20"></circle>
+                    </svg>
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="swiper mySwiper" data-aos-duration="1000" data-aos="fade-left" data-aos-delay="1000">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/فولدر محمد كساب/صور (29).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/فولدر محمد كساب/صور (30).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/فولدر محمد كساب/صور (31).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/فولدر محمد كساب/صور (32).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/فولدر محمد كساب/صور (33).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/فولدر محمد كساب/صور (34).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/فولدر محمد كساب/صور (35).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/فولدر محمد كساب/صور (36).jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/فولدر محمد كساب/صور (37).jpg" alt=""></div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+                <div class="autoplay-progress">
+                    <svg viewBox="0 0 48 48">
+                        <circle cx="24" cy="24" r="20"></circle>
+                    </svg>
+                    <span></span>
+                </div>
             </div>
         </div>
 
     </section>
 
     <!-- ------------------------------------------------- -->
-   
-    <div class="photo">
-        <div class="container">
 
-            <img src="img/3W8A1582.jpg" alt="">
-            <img src="img/HADY9883.jpg" alt="">
-            <img src="img/HADY9784.jpg" alt="">
-            <img src="img/3W8A1582.jpg" alt="">
+    <div class="photo" >
+        <div class="container" data-aos-duration="1000" data-aos="fade-up" data-aos-delay="50">
 
-        </div>
-    </div>
-
-    <div class="photo">
-        <div class="container">
-
-            <img src="img/3W8A1582.jpg" alt="">
-            <img src="img/HADY9883.jpg" alt="">
-            <img src="img/HADY9784.jpg" alt="">
-            <img src="img/3W8A1582.jpg" alt="">
+            <img src="images/فولدر محمد كساب/صور (37).jpg" alt="">
+            <img src="images/فولدر محمد كساب/صور (38).jpg" alt="">
+            <img src="images/فولدر محمد كساب/صور (39).jpg" alt="">
+            <img src="images/فولدر محمد كساب/صور (40).jpg" alt="">
 
         </div>
     </div>
 
-    <div class="photo">
-        <div class="container">
+    <div class="photo" >
+        <div class="container" data-aos-duration="1000" data-aos="fade-up" data-aos-delay="50">
 
-            <img src="img/3W8A1582.jpg" alt="">
-            <img src="img/HADY9883.jpg" alt="">
-            <img src="img/HADY9784.jpg" alt="">
-            <img src="img/3W8A1582.jpg" alt="">
-
-        </div>
-    </div>
-    <div class="photo">
-        <div class="container">
-
-            <img src="img/3W8A1582.jpg" alt="">
-            <img src="img/HADY9883.jpg" alt="">
-            <img src="img/HADY9784.jpg" alt="">
-            <img src="img/3W8A1582.jpg" alt="">
+            <img src="images/فولدر محمد كساب/صور (2).jpg" alt="">
+            <img src="images/فولدر محمد كساب/صور (4).jpg" alt="">
+            <img src="images/فولدر محمد كساب/صور (5).jpg" alt="">
+            <img src="images/فولدر محمد كساب/صور (7).jpg" alt="">
 
         </div>
     </div>
 
+    <div class="photo" >
+        <div class="container" data-aos-duration="1000" data-aos="fade-up" data-aos-delay="50">
+
+            <img src="images/فولدر محمد كساب/صور (1).jpg" alt="">
+            <img src="images/فولدر محمد كساب/صور (10).jpg" alt="">
+            <img src="images/فولدر محمد كساب/صور (20).jpg" alt="">
+            <img src="images/فولدر محمد كساب/صور (30).jpg" alt="">
+
+        </div>
+    </div>
+    <div class="photo" >
+        <div class="container" data-aos-duration="1000" data-aos="fade-up" data-aos-delay="50">
+
+            <img src="images/فولدر محمد كساب/صور (33).jpg" alt="">
+            <img src="images/فولدر محمد كساب/صور (25).jpg" alt="">
+            <img src="images/فولدر محمد كساب/صور (36).jpg" alt="">
+            <img src="images/فولدر محمد كساب/صور (11).jpg" alt="">
+
+        </div>
+    </div>
 
 
 
@@ -311,6 +265,9 @@
 
 
 
+    <a href="" id="whatsapp" class="whatsapp-icon" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 
     <!-- Footer -->
     <footer class="footer-section">
@@ -345,14 +302,19 @@
     <script src="js/script.js"></script>
     <script src="/code.tidio.co/cfkgoe4lijtcbq43wltoluf4ihrixr0x.js" async></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    
-    
-    
-    
+
+
+
+
     <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
     <script src="js/main.js" type="module"></script>
     <script src="js/port.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="//code.tidio.co/cfkgoe4lijtcbq43wltoluf4ihrixr0x.js" async></script>
 
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
