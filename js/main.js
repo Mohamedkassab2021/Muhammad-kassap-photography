@@ -67,4 +67,5 @@ const viewer = new Viewer(elements, {
   viewed() {
     viewer.zoomTo(1);
   },
+  scalable: true,
 });
