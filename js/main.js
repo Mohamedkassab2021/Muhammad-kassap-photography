@@ -59,7 +59,7 @@ whatsappLinks.forEach(function (link) {
 });
 
 $(document).ready(function () {
-  $(".karla-pageloading").fadeOut(5000);
+  $(".karla-pageloading").fadeOut(2000);
 });
 
 const elements = document.querySelector(".img-about");
