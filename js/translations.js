@@ -102,7 +102,7 @@ const translations = {
     packinff:" تعديل جميع الصور",
     packinfff:" توصيل كل صورك مع فلاشه",
     packinffff:"اذا كنت خارج المنوفية يتم اضافة 400 جنيه ",
-    packinfffff:"تصوبر قاعه",
+    packinfffff:"تصوير قاعه",
     packinffffff:" الألبوم والبورتريه",
     packinfffffff:"التجهيزات",
     packinffffffff:"كتب الكتاب",
