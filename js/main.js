@@ -53,7 +53,7 @@ var phoneNumber = "201023279424"; // Replace with your phone number
 var message = `مرحبا`;
 
 var whatsappLink = generateWhatsAppLink(phoneNumber, message);
-var whatsappLinks = document.querySelectorAll("#whatsapp");
+var whatsappLinks = document.querySelectorAll(".whatsapp-icon");
 whatsappLinks.forEach(function (link) {
   link.href = whatsappLink;
 });
