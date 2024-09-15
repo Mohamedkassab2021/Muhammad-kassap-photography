@@ -257,7 +257,13 @@
         var whatsappLink = generateWhatsAppLink(phoneNumber, message);
         var whatsappLinks = document.querySelector(".whatsapp-icon");
         whatsappLinks.href = whatsappLink;
+
+
+        $(document).ready(function () {
+            $(".karla-pageloading").fadeOut(500);
+        });
     </script>
+
 </body>
 
 </html>

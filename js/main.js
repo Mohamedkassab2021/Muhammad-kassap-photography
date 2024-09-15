@@ -41,10 +41,6 @@ var currentYear = new Date().getFullYear();
 
 document.getElementById("currentYear").textContent = currentYear;
 
-$(document).ready(function () {
-  $(".karla-pageloading").fadeOut(500);
-});
-
 const elements = document.querySelector(".img-about");
 const viewer = new Viewer(elements, {
   viewed() {
