@@ -254,9 +254,7 @@
 
         var whatsappLink = generateWhatsAppLink(phoneNumber, message);
         var whatsappLinks = document.querySelector(".whatsapp-icon");
-        whatsappLinks.forEach(function (link) {
-            link.href = whatsappLink;
-        });
+        whatsappLinks.href = whatsappLink;
     </script>
 
 </body>
