@@ -449,20 +449,7 @@ input[type="checkbox"] {
     }
 }
 
-.karla-pageloading .karla-pageloading-inner {
-    -webkit-animation-name: preloader-breath-img;
-    animation-name: preloader-breath-img;
-    -webkit-animation-duration: 1800ms;
-    animation-duration: 1800ms;
-    -webkit-animation-delay: 200ms;
-    animation-delay: 200ms;
-    -webkit-animation-timing-function: cubic-bezier(0.73, 0.005, 0.42, 1.005);
-    animation-timing-function: cubic-bezier(0.73, 0.005, 0.42, 1.005);
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
-    animation-direction: alternate;
-}
+
 
 .karla-pageloading img {
     height: 60px;
