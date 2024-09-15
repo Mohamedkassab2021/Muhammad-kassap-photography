@@ -55,8 +55,8 @@ const translations = {
     w:"From 800 Eg",
     p:"From 350 Eg",
     c:"Contact Us for Details",
-    trend:"Trending Photos"
-
+    trend:"Trending Photos",
+    book:"book now"
 
 
 
@@ -118,8 +118,8 @@ const translations = {
     w:"تبدا من 800 جنيه",
     p:"تبدا من 350 جنيه",
     c:"تواصل معنا للتفاصيل",
-    trend:"اشهر الصور"
-
+    trend:"اشهر الصور",
+    book:"احجز الان"
   
 
   },
