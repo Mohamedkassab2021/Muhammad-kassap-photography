@@ -40,23 +40,6 @@ document.addEventListener("DOMContentLoaded", () => {
 var currentYear = new Date().getFullYear();
 
 document.getElementById("currentYear").textContent = currentYear;
-function generateWhatsAppLink(phoneNumber, message) {
-  var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-  var baseUrl = isMobile
-    ? "https://api.whatsapp.com/send"
-    : "https://web.whatsapp.com/send";
-  var urlParams = new URLSearchParams({ phone: phoneNumber, text: message });
-  return baseUrl + "?" + urlParams.toString();
-}
-
-var phoneNumber = "201023279424"; // Replace with your phone number
-var message = `مرحبا`;
-
-var whatsappLink = generateWhatsAppLink(phoneNumber, message);
-var whatsappLinks = document.querySelectorAll(".whatsapp-icon");
-whatsappLinks.forEach(function (link) {
-  link.href = whatsappLink;
-});
 
 $(document).ready(function () {
   $(".karla-pageloading").fadeOut(500);

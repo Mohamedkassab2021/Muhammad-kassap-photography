@@ -17,26 +17,31 @@
 
     <link rel="icon" type="image/png" href="images/favicon.png" />
     <title>محمد كساب فوتوغرافى</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="css/bootstrap.min.css" rel=stylesheet>
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/themify-icons.css" rel="stylesheet">
     <link href="modules/vegas-slider/vegas.slider.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link href="modules/magnific-popup/magnific-popup.css" rel="stylesheet">
     <link href="modules/owl-carousel/owl.carousel.min.css" rel="stylesheet">
     <link href="modules/owl-carousel/owl.theme.default.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/port.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link href="css/style.css" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.10.2/viewer.min.css">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
     <!-- Preloader -->
     <div id="karla-page-loading" class="karla-pageloading">
         <div class="karla-pageloading-inner">
-            <h2>Mohamed Kassab<span>Wedding Photographer</span></h2>
+            <h2 data-i18n="siteName">محمد كساب
+
+            </h2>
+            <span data-i18n="siteSubName">فوتوغرافى</span>
         </div>
     </div>
     <!-- Header -->
@@ -50,7 +55,9 @@
                                 <nav class="navbar navbar-expand-md navbar-light">
                                     <!-- Logo -->
                                     <a class="navbar-brand" href="index.html">
-                                        <h2>Mohamed Kassab<span>Wedding Photographer</span></h2>
+                                        <h2 data-i18n="siteName">محمد كساب
+                                        </h2>
+                                        <span data-i18n="siteSubName">فوتوغرافى</span>
                                     </a>
                                     <!-- Menu -->
                                     <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -68,8 +75,8 @@
                                                     data-i18n="portfolio" href="portfolio.html">Portfolio</a>
                                             </li>
                                             <select class="p-1 mt-2 mr-2 ml-3" class="form-control">
+                                                <option value="en" data-i18n="english">English</option>
                                                 <option value="ar" data-i18n="arabic">Arabic</option>
-                                                <option value="en" data-i18n="english" selected>English</option>
                                             </select>
 
                                         </ul>
@@ -97,7 +104,7 @@
         </div>
     </div>
     <div class="logo">
-        <h1 data-aos-duration="1000" data-aos="fade-right" data-aos-delay="500" data-i18n="trend">Trending Photos</h1>
+        <p class="text-center p-trend" data-i18n="trend">Trending Photos</p>
     </div>
     <!-- Portfolio -->
     <div class="container">
@@ -116,43 +123,74 @@
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+                <span class="visually-hidden"></span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
                 data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+                <span class="visually-hidden"></span>
             </button>
         </div>
     </div>
     <!-- ------------------------------------------------- -->
     <div class="photo">
-        <div class="container" data-aos-duration="1000" data-aos="fade-up" data-aos-delay="50">
+        <div class="container">
 
-            <div class="row" data-aos-duration="1000" data-aos="fade-up" data-aos-delay="50">
-                <div class="col-lg-4 col-md-6 col-sm-12 cols" data-aos-duration="1000" data-aos="fade-left"
+            <div class="row">
+                <div id="first" class="col-lg-4 col-md-6 col-sm-12 columns" data-aos-duration=" 1000" data-aos="fade-up"
                     data-aos-delay="500">
                     <img src="images/img/7.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 columns" data-aos-duration="1000" data-aos="fade-up"
+                    data-aos-delay="500">
                     <img src="images/img/38.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 columns" data-aos-duration="1000" data-aos="fade-up"
+                    data-aos-delay="500">
                     <img src="images/img/31.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 columns" data-aos-duration="1000" data-aos="fade-up"
+                    data-aos-delay="500">
                     <img src="images/img/39.jpg" alt="">
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 cols">
+                <div class="col-lg-4 col-md-6 col-sm-12 columns" data-aos-duration="1000" data-aos="fade-up"
+                    data-aos-delay="500">
                     <img src="images/img/19.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 columns" data-aos-duration="1000" data-aos="fade-up"
+                    data-aos-delay="500">
                     <img src="images/img/23.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 columns" data-aos-duration="1000" data-aos="fade-up"
+                    data-aos-delay="500">
                     <img src="images/img/32.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 columns" data-aos-duration="1000" data-aos="fade-up"
+                    data-aos-delay="500">
                     <img src="images/img/14.jpg" alt="">
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 cols" data-aos-duration="1000" data-aos="fade-right"
+
+                <div class="col-lg-4 col-md-6 col-sm-12 columns" data-aos-duration="1000" data-aos="fade-up"
                     data-aos-delay="500">
                     <img src="images/img/30.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 columns" data-aos-duration="1000" data-aos="fade-up"
+                    data-aos-delay="500">
                     <img src="images/img/17.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 columns" data-aos-duration="1000" data-aos="fade-up"
+                    data-aos-delay="500">
                     <img src="images/img/18.jpg" alt="">
-                    <img src="images/img/2.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 columns data-aos-duration=" 1000" data-aos="fade-up"
+                    data-aos-delay="500"">
+                    <img src=" images/img/2.jpg" alt="">
                 </div>
             </div>
-
         </div>
+    </div>
+
+    </div>
 
     </div>
     <a href="" id="whatsapp" class="whatsapp-icon" target="_blank">
@@ -200,6 +238,25 @@
     <script src="//code.tidio.co/cfkgoe4lijtcbq43wltoluf4ihrixr0x.js" async></script>
     <script>
         AOS.init();
+    </script>
+    <script>
+        function generateWhatsAppLink(phoneNumber, message) {
+            var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+            var baseUrl = isMobile
+                ? "https://api.whatsapp.com/send"
+                : "https://web.whatsapp.com/send";
+            var urlParams = new URLSearchParams({ phone: phoneNumber, text: message });
+            return baseUrl + "?" + urlParams.toString();
+        }
+
+        var phoneNumber = "201023279424"; // Replace with your phone number
+        var message = `مرحبا`;
+
+        var whatsappLink = generateWhatsAppLink(phoneNumber, message);
+        var whatsappLinks = document.querySelector(".whatsapp-icon");
+        whatsappLinks.forEach(function (link) {
+            link.href = whatsappLink;
+        });
     </script>
 
 </body>

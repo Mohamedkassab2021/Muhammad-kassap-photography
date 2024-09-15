@@ -34,9 +34,13 @@
 
 <body>
     <!-- Preloader -->
+
     <div id="karla-page-loading" class="karla-pageloading">
         <div class="karla-pageloading-inner">
-            <h2>محمد كساب <span>فوتوغرافى</span></h2>
+            <h2 data-i18n="siteName">محمد كساب
+
+            </h2>
+            <span data-i18n="siteSubName">فوتوغرافى</span>
         </div>
     </div>
     <!-- Header -->
@@ -467,7 +471,25 @@
     <script>
         AOS.init();
     </script>
+    <script>
+        function generateWhatsAppLink(phoneNumber, message) {
+            var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+            var baseUrl = isMobile
+                ? "https://api.whatsapp.com/send"
+                : "https://web.whatsapp.com/send";
+            var urlParams = new URLSearchParams({ phone: phoneNumber, text: message });
+            return baseUrl + "?" + urlParams.toString();
+        }
 
+        var phoneNumber = "201023279424"; // Replace with your phone number
+        var message = `مرحبا`;
+
+        var whatsappLink = generateWhatsAppLink(phoneNumber, message);
+        var whatsappLinks = document.querySelector(".whatsapp-icon");
+        whatsappLinks.forEach(function (link) {
+            link.href = whatsappLink;
+        });
+    </script>
 </body>
 
 </html>
