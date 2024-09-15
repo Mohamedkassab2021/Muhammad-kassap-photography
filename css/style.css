@@ -2735,9 +2735,10 @@ button:hover {
     margin-top: 20px;
 }
 
-.frame{
+.frame {
     height: 70px;
 }
+
 .frame .container {
     display: flex;
     align-items: center;
@@ -2758,18 +2759,22 @@ button:hover {
     padding: 6px 20px;
     margin-bottom: 20px;
 }
-.frame .container a:hover{
+
+.frame .container a:hover {
     background: #dd888d;
     color: #fff;
     padding: 10px 30px;
-} 
+}
 
 
 .section-padding {
     padding: 90px 0 47px 0;
 }
 
-
+.carousel-item img,
+.columns img {
+    border-radius: 20px;
+}
 
 .carousel-control-next,
 .carousel-control-prev {
