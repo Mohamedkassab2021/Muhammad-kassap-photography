@@ -9,8 +9,6 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-
-
 }
 
 html,
@@ -28,184 +26,43 @@ body {
     padding: 0;
 }
 
-.swiper {
-    width: 15em;
-    object-fit: cover;
-    height: 20em;
-    border-radius: 20px;
-    transition: 1s ease;
-    margin-left: 10px;
-}
-
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.swiper-slide img {
-    display: block;
+.portfolio .container{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.autoplay-progress {
-    position: absolute;
-    right: 16px;
-    bottom: 16px;
-    z-index: 10;
-    width: 48px;
-    height: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    color: var(--swiper-theme-color);
-}
-
-.autoplay-progress svg {
-    --progress: 0;
-    position: absolute;
-    left: 0;
-    top: 0px;
-    z-index: 10;
-    width: 100%;
-    height: 100%;
-    stroke-width: 4px;
-    stroke: var(--swiper-theme-color);
-    fill: none;
-    stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
-    stroke-dasharray: 125.6;
-    transform: rotate(-90deg);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
+}   
 
 /* ------------------------------------------------------------ */
 .photo {
     background: white;
-    height: 500px;
+    min-height: 150vh;
     width: 100%;
+    padding: 20px 0;
 }
 
 .photo .container {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0;
+    transform: translateX(-30px) !important;
 
 }
 
 .photo .container img {
-    width: 450px;
-    height: 450px;
-    margin-right: 10px;
-    margin-top: 27px;
+    width: 25em;
+    height: 40em;
+    margin-right: 5px;
+    margin-top: 14px;
     transition: 1s ease;
     border-radius: 20px;
+    object-fit: cover;
 
 }
-
-@keyframes dod {
-    0% {
-        box-shadow: 10px 10px 20px #c0e060c2;
-
-    }
-
-    10% {
-        box-shadow: 10px 10px 20px #56ebc6;
-
-    }
-
-    20% {
-        box-shadow: 10px 10px 20px #3381e7;
-
-    }
-
-    30% {
-        box-shadow: 10px 10px 20px #5ae699;
-
-    }
-
-    40% {
-        box-shadow: 10px 10px 20px #ee4a81;
-
-    }
-
-    50% {
-        box-shadow: 10px 10px 20px #dd6f2f;
-
-    }
-
-    60% {
-        box-shadow: 10px 10px 20px #fc4444;
-
-    }
-
-    70% {
-        box-shadow: 10px 10px 20px #202de2;
-
-    }
-
-    80% {
-        box-shadow: 10px 10px 20px #24eb60;
-
-    }
-
-    90% {
-        box-shadow: 10px 10px 20px #1141c7;
-
-    }
-
-    100% {
-        box-shadow: 10px 10px 20px #1B1C18;
-
-    }
-}
-
-
-
-
-
 .photo .container img:hover {
     scale: .9;
-    box-shadow: 10px 10px 20px #1B1C18;
+    box-shadow: 15px 10px 40px #1B1C18;
     cursor: pointer;
-    animation-name: dod;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+   
 }
 
 .logo {
@@ -214,4 +71,14 @@ body {
     justify-content: center;
     background: #F2F2F2;
     height: 200px;
+}
+.photo .row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+ 
+#colum{
+   display: flex;
+   
 }
