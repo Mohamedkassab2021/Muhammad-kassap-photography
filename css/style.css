@@ -2784,9 +2784,13 @@ button:hover {
     background-color: transparent !important;
 }
 
+.whatsapp-icon {
+    bottom: 50px;
+}
+
 @media (min-width: 371px) and (max-width: 991px) {
     .whatsapp-icon {
         right: 11px;
-        bottom: 100px;
+        bottom: 40px;
     }
 }
